@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "147995400319",
+    "firebase_url": "https://seoulmate-1534909173609.firebaseio.com",
+    "project_id": "seoulmate-1534909173609",
+    "storage_bucket": "seoulmate-1534909173609.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:147995400319:android:2d41d9ae6870bdd3",
+        "android_client_info": {
+          "package_name": "kr.co.travelmaker.seoulmate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "147995400319-f7iq0ebg8uj8hs8cfs2fl526t7d90bd9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kr.co.travelmaker.seoulmate",
+            "certificate_hash": "9b0f820f1bd74daf1cdc5405b28f99a32c625eda"
+          }
+        },
+        {
+          "client_id": "147995400319-9g8ju50onbh1c6bvul1rv8tj86436r01.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrurf2s4rCzbp3biTr3CK9zYzbufVCoyU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "147995400319-9g8ju50onbh1c6bvul1rv8tj86436r01.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

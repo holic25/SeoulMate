@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#534960</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#ffb300</color>
+
+    <color name="transparent">#00ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="cf_white">#cfffffff</color>
+
+    <color name="dark_blue">#39749e</color>
+
+    <color name="bright_gray">#edecec</color>
+    <color name="bright_gray_bc">#bcbcbc</color>
+    <color name="bright_gray_c7">#c7c7c7</color>
+    <color name="bright_gray_cd">#cdcdcd</color>
+    <color name="gray">#545454</color>
+    <color name="black">#000000</color>
+
+    <color name="dark_violet_select">#534960</color>
+    <color name="bright_violet">#c2bbca</color>
+    <color name="dark_violet">#3d3546</color>
+
+    <color name="yellow">#ffb300</color>
+
+    <color name="kakao">#f9e001</color>
+    <color name="kakao_select">#c7b92f</color>
+    <color name="google">#fdfdfe</color>
+    <color name="google_select">#cccccc</color>
+
+    <color name="traveler_sel">#a2000000</color>
+    <color name="guide_sel">#8a282727</color>
+    <color name="sel_select">#a24e4e4e</color>
+
+    <color name="sky_blue">#79b8eb</color>
+</resources>

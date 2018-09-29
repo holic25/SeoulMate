@@ -1,0 +1,201 @@
+<resources>
+    <string name="app_name">SeoulMate</string>
+
+    <!-- activity_join -->
+    <string name="id">*아이디 입력</string>
+    <string name="double_check">중복확인</string>
+    <string name="id_check">아이디를 입력해주세요.</string>
+    <string name="id_double_check">이미 사용중인 아이디 입니다.</string>
+    <string name="id_double_check_match">중복확인 해주세요.</string>
+    <string name="id_accepted">사용가능한 아이디 입니다.</string>
+    <string name="pw">*비밀번호 입력</string>
+    <string name="pw_check">비밀번호를 입력해주세요.</string>
+    <string name="pw2">*비밀번호 확인</string>
+    <string name="pw2_check">비밀번호를 한번 더 입력해주세요.</string>
+    <string name="pw2_check_match">비밀번호가 일치하지 않습니다.</string>
+    <string name="email">*이메일</string>
+    <string name="input_adress">*직접입력</string>
+    <string name="email_input">이메일을 입력해주세요.</string>
+    <string name="email_check">이메일을 인증해주세요.</string>
+    <string name="certification_number">인증번호 입력</string>
+    <string name="certificateion_complete">인증완료</string>
+    <string name="certification_number_check">인증을 완료해주세요.</string>
+    <string name="certification_number_match">인증번호가 일치하지 않습니다.</string>
+    <string name="certification_number_complete">인증되었습니다.</string>
+    <string name="first_name">*성</string>
+    <string name="last_name">*이름</string>
+    <string name="name_check">이름을 입력해주세요.</string>
+    <string name="birtday_ex">ex)19900110</string>
+    <string name="birthday_check">생년월일을 입력해주세요.</string>
+    <string name="nationality">국적</string>
+    <string name="nationality_check">국적을 선택해주세요.</string>
+    <string name="women">여성</string>
+    <string name="men">남성</string>
+    <string name="gender_check">성별을 선택해주세요.</string>
+    <string name="take_photo">사진찍기</string>
+    <string name="get_photo">앨범찾기</string>
+    <string name="certificateion_photo_check">인증사진을 올려주세요.</string>
+    <string name="signup">회 원 가 입</string>
+
+    <!-- activity_login.xml -->
+    <string name="username">아이디</string>
+    <string name="password">비밀번호</string>
+    <string name="sign_up">회원가입</string>
+    <string name="Keep_logged_in">로그인 유지</string>
+    <string name="login">로그인</string>
+    <string name="with_kakao">카카오 아이디로 회원가입</string>
+    <string name="with_naver">네이버 아이디로 회원가입</string>
+    <string name="with_google">구글 아이디로 회원가입</string>
+    <string name="request">인증요청</string>
+    <string name="enter_id">아이디를 입력해주세요.</string>
+    <string name="enter_pw">비밀번호를 입력해주세요.</string>
+    <string name="check_meminfo">회원정보를 확인해주세요.</string>
+    <string name="fail_google">구글 계정 연결 실패</string>
+
+    <!-- fragment_traveler.xml -->
+    <string name="travel_period">여행 기간</string>
+    <string name="payment_type">선호하는 지불 방법</string>
+    <string name="cash">현금</string>
+    <string name="goods">물건</string>
+    <string name="guide_type">선호하는 가이드 타입</string>
+    <string name="drive_guide">운전 및 가이드</string>
+    <string name="guide_only">가이드</string>
+
+    <!-- fragment_guide.xml -->
+    <string name="possible_time">가이드 가능 시간</string>
+    <string name="sun">일</string>
+    <string name="mon">월</string>
+    <string name="tue">화</string>
+    <string name="wed">수</string>
+    <string name="thu">목</string>
+    <string name="fri">금</string>
+    <string name="sat">토</string>
+
+    <!-- fragment_board.xml -->
+    <string name="search">검색</string>
+    <string name="closed">완료됨</string>
+
+    <!-- board_detail -->
+    <string name="close_request">모집 완료하기</string>
+    <string name="introduction">소개</string>
+    <string name="details">세부 사항</string>
+    <string name="reviews">리뷰</string>
+    <string name="travel_place">갈 곳</string>
+    <string name="guide_place">가이드 가능 지역</string>
+    <string name="apply">신청하기</string>
+    <string name="send_message">메시지 보내기</string>
+    <string name="recruitment_completed">모집 완료</string>
+    <string name="modify">수정하기</string>
+    <string name="update">수정</string>
+    <string name="delete">삭제</string>
+    <string name="AskTravel">님과 함께 여행하시겠습니까</string>
+    <string name="onlyTravelerApply">Guide에게는 Traveler만 신청 가능합니다.</string>
+    <string name="onlyGuideApply">Traveler에게는 Guide만 신청 가능합니다.</string>
+    <string name="applyOk">신청이 완료 되었습니다.</string>
+
+    <!-- fragment_messenger -->
+    <string name="confirm_delete_chatroom">이 대화방을 삭제하시겠습니까?</string>
+    <string name="ok">네</string>
+    <string name="cancel">아니요</string>
+    <string name="send">전송</string>
+
+    <!-- fragment_mypage -->
+    <string name="logout">로그아웃</string>
+    <string name="history">히스토리</string>
+    <string name="managing_requests">신청 관리</string>
+    <string name="managing_my_posts">내 글 관리</string>
+    <string name="matching_history">매칭 히스토리</string>
+    <string name="list_reviews">리뷰 목록</string>
+    <string name="notifications">알림 설정</string>
+    <string name="messenger_notification">메신저 알림</string>
+    <string name="user_account">사용자 계정 관리</string>
+    <string name="edit_profile">회원 정보 수정</string>
+    <string name="delete_account">회원 탈퇴</string>
+    <string name="copyright">저작권</string>
+    <string name="licenses">라이센스</string>
+    <string name="confirm_delete_account">정말로 이 계정을 삭제하시겠습니까?</string>
+
+    <!-- activity_request.xml -->
+    <string name="accept">수락 하기</string>
+    <string name="refuse">거절 하기</string>
+    <string name="no_data">데이터가 없습니다.</string>
+
+    <!-- item_list_matching_history.xml -->
+    <string name="write_review">리뷰 작성</string>
+
+    <!-- activity_review_write.xml -->
+    <string name="Write">작성하기</string>
+    <string name="Write_review">리뷰를 작성해주세요.</string>
+
+    <!-- activity_board_write -->
+    <string name="title">제목</string>
+    <string name="enter_title">제목을 입력하세요.</string>
+    <string name="example">ex)강남에 같이 갈 가이드 구합니다.</string>
+    <string name="example_guide">ex)종로,이태원쪽 가능합니다.</string>
+    <string name="write">작성하기</string>
+    <string name="intoduction_content">소개 내용</string>
+    <string name="introduction_content_detail">소개 내용을 자세하게 입력해주세요.</string>
+    <string name="Recruitment_contents">모집 내용</string>
+    <string name="Recruitment_contents_detail">모집내용을 자세하게 입력해주세요.</string>
+
+    <!-- fragment_cultural -->
+    <string name="culturalInfo">문화정보</string>
+    <string name="genre">장르</string>
+    <string name="term">기간</string>
+    <string name="time">시간</string>
+    <string name="place">장소</string>
+    <string name="Targetaudience">이용 대상</string>
+    <string name="Charge">이용 요금</string>
+    <string name="host">주최</string>
+    <string name="question">문의</string>
+    <string name="link">행사정보 바로가기</string>
+    <string name="ing">진행중</string>
+    <string name="ed">마감</string>
+    <string name="coming">진행 예정</string>
+
+    <!-- activity_edit_profile -->
+    <string name="current_pw">현재 비밀번호</string>
+    <string name="new_pw">새 비밀번호</string>
+    <string name="confirm_new_pw">새 비밀번호 확인</string>
+    <string name="certification">인증</string>
+    <string name="select_photo">사진 선택</string>
+    <string name="change_photo">사진 변경</string>
+    <string name="wrong_pw">잘못된 비밀번호입니다.</string>
+
+    <!-- nationality -->
+    <string name="Republic_of_Korea">대한민국</string>
+    <string name="Australia">오스트레일리아</string>
+    <string name="Austria">오스트리아</string>
+    <string name="Bangladesh">방글라데시</string>
+    <string name="Belgium">벨기에</string>
+    <string name="Bolivia">볼리비아</string>
+    <string name="Brazil">브라질</string>
+    <string name="Cambodia">캄보디아</string>
+    <string name="Canada">캐나다</string>
+    <string name="China">중국</string>
+    <string name="Colombia">콜롬비아</string>
+    <string name="Czech_Republic">체코</string>
+    <string name="Democratic_Republic_of_Korea">북한</string>
+    <string name="Denmark">덴마크</string>
+    <string name="Finland">핀란드</string>
+    <string name="France">프랑스</string>
+    <string name="Germany">독일</string>
+    <string name="Italy">이탈리아</string>
+    <string name="Japan">일본</string>
+    <string name="Kazakhstan">카자흐스탄</string>
+    <string name="Malaysia">말레이시아</string>
+    <string name="Maldives">몰디브</string>
+    <string name="Malta">말타</string>
+    <string name="Netherlands">네덜란드</string>
+    <string name="New_Zealand">뉴질랜드</string>
+    <string name="Philippines">필리핀</string>
+    <string name="Poland">폴란드</string>
+    <string name="Portugal">포르투갈</string>
+    <string name="Russian_Federation">러시아</string>
+    <string name="Singapore">싱가폴</string>
+    <string name="Thailand">타이</string>
+    <string name="United_Kingdom">영국</string>
+    <string name="United_States">미국</string>
+    <string name="Uzbekistan">우즈베키스탄</string>
+    <string name="Viet_Nam">베트남</string>
+</resources>

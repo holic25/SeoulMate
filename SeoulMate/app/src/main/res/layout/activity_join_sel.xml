@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".JoinSelActivity">
+
+    <RelativeLayout
+        android:id="@+id/rel_traveler_sel"
+        android:layout_width="250dp"
+        android:layout_height="310dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/selector_traveler_sel">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="230dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/ic_text_traveler"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_guide_sel"
+        android:layout_width="250dp"
+        android:layout_height="310dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/selector_guide_sel">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="200dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/ic_text_guide"/>
+    </RelativeLayout>
+</RelativeLayout>

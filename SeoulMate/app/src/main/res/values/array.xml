@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sp_payment_type">
+        <item>@string/payment_type</item>
+        <item>@string/cash</item>
+        <item>@string/goods</item>
+    </string-array>
+
+    <string-array name="sp_guide_type">
+        <item>@string/guide_type</item>
+        <item>@string/drive_guide</item>
+        <item>@string/guide_only</item>
+    </string-array>
+
+    <string-array name="sp_nationality">
+        <item>@string/nationality</item>
+        <item>@string/Republic_of_Korea</item>
+        <item>@string/Australia</item>
+        <item>@string/Austria</item>
+        <item>@string/Bangladesh</item>
+        <item>@string/Belgium</item>
+        <item>@string/Bolivia</item>
+        <item>@string/Brazil</item>
+        <item>@string/Cambodia</item>
+        <item>@string/Canada</item>
+        <item>@string/China</item>
+        <item>@string/Colombia</item>
+        <item>@string/Czech_Republic</item>
+        <item>@string/Democratic_Republic_of_Korea</item>
+        <item>@string/Denmark</item>
+        <item>@string/Finland</item>
+        <item>@string/France</item>
+        <item>@string/Germany</item>
+        <item>@string/Italy</item>
+        <item>@string/Japan</item>
+        <item>@string/Kazakhstan</item>
+        <item>@string/Malaysia</item>
+        <item>@string/Maldives</item>
+        <item>@string/Malta</item>
+        <item>@string/Netherlands</item>
+        <item>@string/New_Zealand</item>
+        <item>@string/Philippines</item>
+        <item>@string/Poland</item>
+        <item>@string/Portugal</item>
+        <item>@string/Russian_Federation</item>
+        <item>@string/Singapore</item>
+        <item>@string/Thailand</item>
+        <item>@string/United_Kingdom</item>
+        <item>@string/United_States</item>
+        <item>@string/Uzbekistan</item>
+        <item>@string/Viet_Nam</item>
+    </string-array>
+
+    <string-array name="sp_time">
+        <item>06:00</item>
+        <item>07:00</item>
+        <item>08:00</item>
+        <item>09:00</item>
+        <item>10:00</item>
+        <item>11:00</item>
+        <item>12:00</item>
+        <item>13:00</item>
+        <item>14:00</item>
+        <item>15:00</item>
+        <item>16:00</item>
+        <item>17:00</item>
+        <item>18:00</item>
+        <item>19:00</item>
+        <item>20:00</item>
+        <item>21:00</item>
+        <item>22:00</item>
+        <item>23:00</item>
+        <item>24:00</item>
+    </string-array>
+</resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/layout_open_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_rectangle_cfwhite_full_20"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/btn_open"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/ic_navigate_open"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_rectangle_cfwhite_full_20"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/btn_traveler"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_rectangle_dark_violet_full_30"
+                    android:gravity="center"
+                    android:text="@string/traveler"
+                    android:textAllCaps="false"
+                    android:textColor="@color/cf_white"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/btn_guide"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_rectangle_dark_violet_line"
+                    android:gravity="center"
+                    android:text="@string/guide"
+                    android:textAllCaps="false"
+                    android:textColor="@color/dark_violet"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/vp_search_menu"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="260dp">
+            </android.support.v4.view.ViewPager>
+
+            <Button
+                android:id="@+id/btn_close"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/ic_navigate_close"/>
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/lv_list_board"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_rectangle_cfwhite_full_10"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="10dp">
+        </ListView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_add_board"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/selector_add"/>
+</RelativeLayout>

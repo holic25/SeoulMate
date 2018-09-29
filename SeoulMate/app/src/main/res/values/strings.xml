@@ -1,0 +1,205 @@
+<resources>
+    <string name="app_name">SeoulMate</string>
+    <string name="traveler">Traveler</string>
+    <string name="guide">Guide</string>
+
+    <!-- activity_join -->
+    <string name="id">*ID</string>
+    <string name="double_check">Double check</string>
+    <string name="id_check">Check your ID</string>
+    <string name="id_double_check">This ID is already taken.</string>
+    <string name="id_double_check_match">Please check duplicates.</string>
+    <string name="id_accepted">Usable ID.</string>
+    <string name="pw">*Passwaord</string>
+    <string name="pw_check">Please enter a password.</string>
+    <string name="pw2">*Passwaord re-check</string>
+    <string name="pw2_check">Please enter your password again.</string>
+    <string name="pw2_check_match">Passwords do not match.</string>
+    <string name="email">*E-mail</string>
+    <string name="input_adress">*Direct input</string>
+    <string name="email_input">Please enter your e-mail.</string>
+    <string name="email_check">Please verify your email.</string>
+    <string name="certification_number">Input certification number</string>
+    <string name="certificateion_complete">Certificateion</string>
+    <string name="certification_number_check">Please complete the verification.</string>
+    <string name="certification_number_match">Authentication numbers do not match.</string>
+    <string name="certification_number_complete">Verified.</string>
+    <string name="first_name">*First name</string>
+    <string name="last_name">*last name</string>
+    <string name="name_check">Please Input your name.</string>
+    <string name="birtday_ex">ex)19900110</string>
+    <string name="birthday_check">Please enter your birth date.</string>
+    <string name="nationality">Nationality</string>
+    <string name="nationality_check">Please select your nationality.</string>
+    <string name="women">Women</string>
+    <string name="men">Men</string>
+    <string name="gender_check">Please select a gender.</string>
+    <string name="take_photo">Take photo</string>
+    <string name="get_photo">Get photo</string>
+    <string name="certificateion_photo_check">Upload Photo.</string>
+    <string name="signup">Sign Up</string>
+
+    <!-- activity_login.xml -->
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="Keep_logged_in">Keep logged in</string>
+    <string name="login">Login</string>
+    <string name="with_kakao">Sign Up with Kakao ID</string>
+    <string name="with_google">Sign Up with Google ID</string>
+    <string name="request">Request</string>
+    <string name="enter_id">Please enter your ID.</string>
+    <string name="enter_pw">Please enter a password.</string>
+    <string name="check_meminfo">Please check your membership information.</string>
+    <string name="fail_google">google account connection fail</string>
+
+    <!-- fragment_traveler.xml -->
+    <string name="travel_period">travel period</string>
+    <string name="payment_type">preferred payment method</string>
+    <string name="cash">by Cash</string>
+    <string name="goods">by Goods</string>
+    <string name="guide_type">preferred guide type</string>
+    <string name="drive_guide">Drive and Guide</string>
+    <string name="guide_only">Guide Only</string>
+
+    <!-- fragment_guide.xml -->
+    <string name="possible_time">Possible time for guide</string>
+    <string name="sun">Sun</string>
+    <string name="mon">Mon</string>
+    <string name="tue">Tue</string>
+    <string name="wed">Wed</string>
+    <string name="thu">Thu</string>
+    <string name="fri">Fri</string>
+    <string name="sat">Sat</string>
+
+    <!-- fragment_board.xml -->
+    <string name="search">Search</string>
+    <string name="closed">closed</string>
+
+    <!-- board_detail -->
+    <string name="close_request">close request</string>
+    <string name="introduction">Introduction</string>
+    <string name="details">Details</string>
+    <string name="reviews">Reviews</string>
+    <string name="travel_place">the place to go</string>
+    <string name="guide_place">possible areas for guide</string>
+    <string name="apply">Apply</string>
+    <string name="send_message">Send Message</string>
+    <string name="recruitment_completed">Recruitment completed</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="modify">Modify</string>
+    <string name="AskTravel">Would you like to travel with </string>
+    <string name="onlyTravelerApply">Only Traveler can be applied to the Guide.</string>
+    <string name="onlyGuideApply">Only Guide can be applied to the Traveler.</string>
+    <string name="applyOk">Your application is complete.</string>
+
+    <!-- fragment_messenger -->
+    <string name="mate_talk">Mate Talk</string>
+    <string name="confirm_delete_chatroom">Are you sure delete this chat room?</string>
+    <string name="ok">확인</string>
+    <string name="cancel">취소</string>
+    <string name="send">Send</string>
+
+    <!-- fragment_mypage -->
+    <string name="logout">Logout</string>
+    <string name="history">history</string>
+    <string name="managing_requests">managing requests</string>
+    <string name="managing_my_posts">managing my posts</string>
+    <string name="matching_history">matching history</string>
+    <string name="list_reviews">the list of reviews</string>
+    <string name="notifications">setting notifications</string>
+    <string name="messenger_notification">messenger notifications</string>
+    <string name="user_account">user account management</string>
+    <string name="edit_profile">edit profile</string>
+    <string name="delete_account">delete account</string>
+    <string name="copyright">copyright</string>
+    <string name="licenses">licenses</string>
+    <string name="confirm_delete_account">Are you sure delete your account?</string>
+
+    <!-- activity_request.xml -->
+    <string name="accept">Accept</string>
+    <string name="refuse">Refuse</string>
+    <string name="no_data">No Data</string>
+
+    <!-- item_list_matching_history.xml -->
+    <string name="write_review">Write review</string>
+
+    <!-- activity_review_write.xml -->
+    <string name="Write">Write</string>
+    <string name="Write_review">Please write a review.</string>
+
+    <!-- activity_board_write -->
+    <string name="title">Title</string>
+    <string name="enter_title">Please enter a title</string>
+    <string name="example">ex) I m looking for a guide to go to Gangnam</string>
+    <string name="example_guide">ex) Jongno and Itaewon are available.</string>
+    <string name="write">Upload</string>
+    <string name="intoduction_content">Introduction contents</string>
+    <string name="introduction_content_detail">Please enter the details of the introduction.</string>
+    <string name="Recruitment_contents">Recruitment contents</string>
+    <string name="Recruitment_contents_detail">Please fill in the details of the offer.</string>
+
+    <!-- fragment_cultural -->
+    <string name="culturalInfo">Cultural Information</string>
+    <string name="genre">Genre</string>
+    <string name="term">Term</string>
+    <string name="time">Time</string>
+    <string name="place">Place</string>
+    <string name="Targetaudience">Target audience</string>
+    <string name="Charge">Charge</string>
+    <string name="host">Host</string>
+    <string name="question">Question</string>
+    <string name="link">Event information link</string>
+    <string name="ing">Ongoing</string>
+    <string name="ed">Close</string>
+    <string name="coming">Upcoming</string>
+
+    <!-- activity_edit_profile -->
+    <string name="current_pw">Current password</string>
+    <string name="new_pw">New password</string>
+    <string name="confirm_new_pw">Confirm new password</string>
+    <string name="certification">Certification</string>
+    <string name="select_photo">Select\nphoto</string>
+    <string name="change_photo">Change\nphoto</string>
+    <string name="wrong_pw">Wrong Password</string>
+
+    <!-- nationality -->
+    <string name="Republic_of_Korea">Republic of Korea</string>
+    <string name="Australia">Australia</string>
+    <string name="Austria">Austria</string>
+    <string name="Bangladesh">Bangladesh</string>
+    <string name="Belgium">Belgium</string>
+    <string name="Bolivia">Bolivia</string>
+    <string name="Brazil">Brazil</string>
+    <string name="Cambodia">Cambodia</string>
+    <string name="Canada">Canada</string>
+    <string name="China">China</string>
+    <string name="Colombia">Colombia</string>
+    <string name="Czech_Republic">Czech Republic</string>
+    <string name="Democratic_Republic_of_Korea">Democratic Republic of Korea</string>
+    <string name="Denmark">Denmark</string>
+    <string name="Finland">Finland</string>
+    <string name="France">France</string>
+    <string name="Germany">Germany</string>
+    <string name="Italy">Italy</string>
+    <string name="Japan">Japan</string>
+    <string name="Kazakhstan">Kazakhstan</string>
+    <string name="Malaysia">Malaysia</string>
+    <string name="Maldives">Maldives</string>
+    <string name="Malta">Malta</string>
+    <string name="Netherlands">Netherlands</string>
+    <string name="New_Zealand">New Zealand</string>
+    <string name="Philippines">Philippines</string>
+    <string name="Poland">Poland</string>
+    <string name="Portugal">Portugal</string>
+    <string name="Russian_Federation">Russian Federation</string>
+    <string name="Singapore">Singapore</string>
+    <string name="Thailand">Thailand</string>
+    <string name="United_Kingdom">United Kingdom</string>
+    <string name="United_States">United States</string>
+    <string name="Uzbekistan">Uzbekistan</string>
+    <string name="Viet_Nam">Viet Nam</string>
+
+    <string name="default_notification_channel_id">Channel ID</string>
+</resources>

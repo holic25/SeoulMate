@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@drawable/shape_rectangle_dark_violet_full_20"
+        android:state_pressed="false"/>
+
+    <item
+        android:drawable="@drawable/shape_rectangle_dark_violet_select_full_20"
+        android:state_pressed="true"/>
+</selector>

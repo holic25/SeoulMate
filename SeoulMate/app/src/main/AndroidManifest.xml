@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kr.co.travelmaker.seoulmate">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".GuideBoardDetailActivity" />
+        <activity android:name=".GuideBoardWriteActivity" />
+        <activity android:name=".GuideEditProfileActivity" />
+        <activity android:name=".TravelerBoardDetailActivity" />
+        <activity android:name=".TravelerBoardWriteActivity" />
+        <activity android:name=".TravelerEditProfileActivity" />
+        <activity android:name=".JoinSelActivity" />
+        <activity android:name=".LoginActivity">
+
+        </activity>
+        <activity android:name=".GuideJoinActivity" />
+        <activity android:name=".TravelerJoinActivity" />
+        <activity android:name=".ApiJoinGuideActivity" />
+        <activity android:name=".ApiJoinTravelerActivity" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="kr.co.travelmaker.seoulmate"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity android:name=".RequestActivity" />
+        <activity android:name=".TravelerBoardModifyActivity" />
+        <activity android:name=".GuideBoardModifyActivity" />
+        <activity android:name=".MatchingHistoryActivity" />
+        <activity android:name=".MyReviewsActivity" />
+        <activity android:name=".FirebaseMessageActivity" />
+
+        <service android:name=".service.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".MyBoardsActivity" />
+        <activity android:name=".LicensesActivity" />
+        <activity android:name=".ReviewWriteActivity" />
+        <activity android:name=".IntroActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

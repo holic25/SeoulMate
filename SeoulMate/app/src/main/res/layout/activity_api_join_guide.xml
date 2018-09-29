@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ApiJoinGuideActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_rectangle_cfwhite_full_20"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="175dp"
+                    android:layout_height="50dp"
+                    android:text="@string/guide"
+                    android:textColor="@color/cf_white"
+                    android:textSize="20dp"
+                    android:background="@drawable/shape_rectangle_dark_violet_full_20"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="371dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_vertical">
+
+                        <EditText
+                            android:id="@+id/et_google_guide_id"
+                            android:layout_width="220dp"
+                            android:layout_height="40dp"
+                            android:background="@drawable/shape_rectangle_bright_gray_c7_line_5"
+                            android:backgroundTint="@color/white"
+                            android:hint="@string/id"
+                            android:padding="5dp" />
+
+                        <Button
+                            android:id="@+id/btn_google_guide_id_double_check"
+                            android:layout_width="100dp"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="15dp"
+                            android:background="@drawable/selector_dark_violet_full_20"
+                            android:textColor="@color/cf_white"
+                            android:text="@string/double_check"
+                            android:textSize="13dp" />
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="20dp">
+
+                        <TextView
+                            android:id="@+id/txt_google_guide_id_check"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:textSize="12dp"
+                            android:visibility="invisible"
+                            android:text="@string/id_check"/>
+
+                        <TextView
+                            android:id="@+id/txt_google_guide_id_db_check"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:textSize="12dp"
+                            android:visibility="invisible"
+                            android:text="@string/id_double_check"/>
+
+                        <TextView
+                            android:id="@+id/txt_google_guide_id_db_check_match"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:textSize="12dp"
+                            android:visibility="invisible"
+                            android:text="@string/id_double_check_match"/>
+
+                        <TextView
+                            android:id="@+id/txt_google_guide_id_accepted"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:textSize="12dp"
+                            android:visibility="invisible"
+                            android:text="@string/id_accepted"/>
+                    </RelativeLayout>
+
+                    <EditText
+                        android:id="@+id/et_guide_pw"
+                        android:layout_width="335dp"
+                        android:layout_height="40dp"
+                        android:hint="@string/pw"
+                        android:backgroundTint="@color/white"
+                        android:padding="5dp"
+                        android:layout_marginTop="5dp"
+                        android:inputType="textPassword"
+                        android:background="@drawable/shape_rectangle_bright_gray_c7_line_5"/>
+
+                    <TextView
+                        android:id="@+id/txt_guide_pw_check"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_gravity="left"
+                        android:textSize="12dp"
+                        android:visibility="invisible"
+                        android:text="@string/pw_check"/>
+
+                    <EditText
+                        android:id="@+id/et_guide_pw2"
+                        android:layout_width="335dp"
+                        android:layout_height="40dp"
+                        android:hint="@string/pw2"
+                        android:backgroundTint="@color/white"
+                        android:padding="5dp"
+                        android:layout_marginTop="10dp"
+                        android:inputType="textPassword"
+                        android:background="@drawable/shape_rectangle_bright_gray_c7_line_5"/>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="20dp">
+
+                        <TextView
+                            android:id="@+id/txt_guide_pw_check2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:textSize="12dp"
+                            android:visibility="invisible"
+                            android:text="@string/pw2_check"/>
+
+                        <TextView
+                            android:id="@+id/txt_guide_pw_check_match"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:textSize="12dp"
+                            android:visibility="invisible"
+                            android:text="@string/pw2_check_match"/>
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="335dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:layout_marginTop="10dp">
+
+                        <TextView
+                            android:id="@+id/txt_google_guide_email"
+                            android:layout_width="120dp"
+                            android:layout_height="40dp"
+                            android:hint="@string/email"
+                            android:backgroundTint="@color/white"
+                            android:gravity="center_vertical"
+                            android:textSize="17dp"
+                            android:padding="5dp"
+                            android:background="@drawable/shape_rectangle_bright_gray_c7_line_5"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:textSize="20dp"
+                            android:text="\u0040"/>
+
+                        <TextView
+                            android:id="@+id/txt_google_guide_email_adress"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:hint="@string/input_adress"
+                            android:backgroundTint="@color/white"
+                            android:gravity="center_vertical"
+                            android:textSize="17dp"
+                            android:padding="5dp"
+                            android:background="@drawable/shape_rectangle_bright_gray_c7_line_5"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="335dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="23dp">
+
+                        <EditText
+                            android:id="@+id/et_google_guide_first_name"
+                            android:layout_width="120dp"
+                            android:layout_height="40dp"
+                            android:hint="@string/first_name"
+                            android:backgroundTint="@color/white"
+                            android:padding="5dp"
+                            android:background="@drawable/shape_rectangle_bright_gray_c7_line_5"/>
+
+                        <EditText
+                            android:id="@+id/et_google_guide_last_name"
+                            android:layout_width="188dp"
+                            android:layout_height="40dp"
+                            android:hint="@string/last_name"
+                            android:layout_marginLeft="27dp"
+                            android:backgroundTint="@color/white"
+                            android:padding="5dp"
+                            android:background="@drawable/shape_rectangle_bright_gray_c7_line_5"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/txt_google_guide_name_check"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_gravity="left"
+                        android:textSize="12dp"
+                        android:visibility="invisible"
+                        android:text="@string/name_check"/>
+
+                    <LinearLayout
+                        android:layout_width="335dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <EditText
+                            android:id="@+id/et_google_guide_birth_day"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:hint="@string/birtday_ex"
+                            android:inputType="number"
+                            android:maxLength="8"
+                            android:backgroundTint="@color/white"
+                            android:padding="5dp"
+                            android:background="@drawable/shape_rectangle_bright_gray_c7_line_5"/>
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="20dp">
+
+                        <TextView
+                            android:id="@+id/txt_google_guide_birthday_check"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:textSize="12dp"
+                            android:visibility="invisible"
+                            android:text="@string/birthday_check"/>
+                    </RelativeLayout>
+
+                    <Spinner
+                        android:id="@+id/guide_google_spinner_notification"
+                        android:layout_width="335dp"
+                        android:layout_height="40dp"
+                        android:backgroundTint="@color/white"
+                        android:padding="5dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/shape_rectangle_bright_gray_c7_line_5"/>
+
+                    <TextView
+                        android:id="@+id/txt_google_guide_nation_check"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_gravity="left"
+                        android:textSize="12dp"
+                        android:visibility="invisible"
+                        android:text="@string/nationality_check"/>
+
+                    <LinearLayout
+                        android:layout_width="335dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginTop="10dp">
+
+                        <RadioGroup
+                            android:id="@+id/guide_google_radio_group_gender"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/guide_google_radio_women"
+                                android:text="@string/women"
+                                android:layout_width="150dp"
+                                android:layout_height="40dp"
+                                android:background="@drawable/shape_rectangle_bright_gray_c7_line_5"
+                                android:backgroundTint="@color/white"/>
+
+                            <RadioButton
+                                android:id="@+id/guide_google_radio_men"
+                                android:text="@string/men"
+                                android:layout_width="150dp"
+                                android:layout_height="40dp"
+                                android:background="@drawable/shape_rectangle_bright_gray_c7_line_5"
+                                android:backgroundTint="@color/white"
+                                android:layout_marginLeft="35dp"/>
+                        </RadioGroup>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/txt_google_guide_gender_check"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_gravity="left"
+                        android:textSize="12dp"
+                        android:visibility="invisible"
+                        android:text="@string/gender_check"/>
+
+                    <RelativeLayout
+                        android:layout_width="335dp"
+                        android:layout_height="180dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/shape_rectangle_cfwhite_full_20">
+
+                        <ImageView
+                            android:id="@+id/img_google_id_card_check"
+                            android:layout_width="200dp"
+                            android:layout_height="150dp"
+                            android:background="@drawable/shape_rectangle_bright_gray_cd_full_10"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="15dp"/>
+
+                        <Button
+                            android:id="@+id/btn_google_take_photo"
+                            android:layout_width="100dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="@color/cf_white"
+                            android:text="@string/take_photo"
+                            android:layout_marginTop="15dp"
+                            android:layout_toRightOf="@id/img_google_id_card_check"
+                            android:layout_alignTop="@id/img_google_id_card_check"
+                            android:background="@drawable/selector_dark_violet_full_20"/>
+
+                        <Button
+                            android:id="@+id/btn_google_get_photo"
+                            android:layout_width="100dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="@color/cf_white"
+                            android:text="@string/get_photo"
+                            android:layout_marginBottom="15dp"
+                            android:layout_toRightOf="@id/img_google_id_card_check"
+                            android:layout_alignBottom="@id/img_google_id_card_check"
+                            android:background="@drawable/selector_dark_violet_full_20"/>
+                    </RelativeLayout>
+
+                    <Button
+                        android:id="@+id/btn_google_guide_sign_up"
+                        android:layout_width="335dp"
+                        android:layout_height="58dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/selector_dark_violet_full_20"
+                        android:textColor="@color/cf_white"
+                        android:textSize="23dp"
+                        android:text="@string/signup"/>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

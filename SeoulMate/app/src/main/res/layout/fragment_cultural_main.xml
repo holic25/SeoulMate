@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <kr.co.travelmaker.seoulmate.util.CustomViewPager
+        android:id="@+id/vp_cultural_info"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </kr.co.travelmaker.seoulmate.util.CustomViewPager>
+</LinearLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="45dp">
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true">
+
+        <RelativeLayout
+            android:id="@+id/layout_board_tab"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/cf_white"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/ivbtn_board"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ic_handshake_dark_violet"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_messenger_tab"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/ivbtn_messenger"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/ic_messenger_white"
+                android:layout_centerInParent="true"/>
+
+            <ImageView
+                android:id="@+id/iv_notice_messenger"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:background="@drawable/shape_rectangle_yellow_full_30"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:visibility="gone"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_information_tab"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/ivbtn_information"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/ic_brochure_white"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_mypage_tab"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/ivbtn_mypage"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/ic_user_white"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>
